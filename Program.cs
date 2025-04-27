@@ -110,13 +110,6 @@ namespace ABX_Exchange_Client
 
       return missing;
     }
-
-    //To Get Missing Packets
-    private TxnPacket GetResentPackets(int Sequence)
-    {
-      var packet = new TxnPacket();
-      return packet;
-    }
     // Method to Get All Packets
     private List<TxnPacket> StreamAllPackets()
     {
